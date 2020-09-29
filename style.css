@@ -1,7 +1,64 @@
 body{
-  background-color: lavender;
+  background-color: rgb(250, 230, 233);
 }
 
 h1{
   color: white;
+  font-family: tahoma;
+}
+
+h3{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+a:hover{
+  background-color: white;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+#header-item{
+background-color: lightpink;
+ grid-column: span 2;
+ grid-row: 1;
+text-align: center;
+}
+
+#nav-item{
+  background-color: rgb(194, 227, 238);
+  grid-column: 1;
+  grid-row: 2;
+}
+
+
+#main-item{
+  background-color: white;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#footer-item{
+  background-color: lightpink;
+  color: white;
+  font-family: sans-serif;
+  grid-column: span 2;
+  grid-row: 3;
+}
+
+/*ids for recipe*/
+
+#meat{
+  background-color: rgb(255, 144, 144);
+}
+
+#veg{
+  background-color: lightgreen;
+}
+
+#milk{
+  background-color: lightyellow;
 }
