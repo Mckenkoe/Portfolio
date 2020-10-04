@@ -1,0 +1,1 @@
+let update = new Date(document.lastModified);
