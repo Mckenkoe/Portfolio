@@ -17,8 +17,17 @@ h3{
   font-family: sans-serif;
 }
 
+a{
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+  
+}
+
 a:hover{
+  color: rgb(194, 227, 238);
   background-color: white;
+
 }
 
 .grid-container{
